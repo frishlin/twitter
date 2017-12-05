@@ -1,0 +1,133 @@
+html,
+body {
+  height: 100%;
+}
+
+body{
+  font-family: monospace;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body > section{
+  width: 60%;
+  height: 800px;
+  margin: auto;
+}
+
+section > div > p{
+  margin-left: 22px;
+}
+
+#title-id{
+  font-size: 24px;
+}
+
+#salute-id, #occupation-id{
+  font-size: 16px;
+}
+
+#code-id{
+color: green;
+font-size: 20px;
+font-weight: bold;
+margin-top: 40px;
+}
+
+#line1-id{
+  border: 1px solid green;
+
+}
+
+
+body > section > header{
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 20px;
+  color: white;
+}
+
+
+
+#div1-reto-id{
+  float: left;
+  height: 250px;
+  width: 45%;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#div2-input-id{
+  float: right;
+  height: 153px;
+  width: 45%;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+/*Mensaje con fondo blanco*/
+.msgTuit{
+  background-color: white;
+  margin: 10px 0;
+  color:black;
+}
+
+#subcontainer-id{
+  margin: 0 auto;
+  clear: both;
+  width: 92%;
+  height: auto;
+}
+
+#div-but-id{
+background-color: white;
+  margin-top: -7px;
+  width: 453px;
+  height:102px;
+
+
+}
+
+#button-id{
+  background-color: #6FD2F1;
+  border-radius: 8px;
+  font-family: monospace;
+  color: white;
+  float: right;
+  font-size: 18px;
+  height: 50px;
+  right: 320px;
+  outline: none;
+  position: relative;
+  top: 30px;
+  width: 110px;
+}
+
+#text-area-count-id{
+  font-family: monospace;
+  resize: none;
+  width: 55px;
+  height: 35px;
+  text-align: center;
+  font-size: 17px;
+  margin-left: 82%;
+
+  border: none;
+  line-height: 35px;
+  overflow: hidden;
+}
+
+#text-area-id{
+  border: none;
+  font-family: monospace;
+  border-bottom: 4px solid green;
+  font-size: 14px;
+  height: auto;
+  margin: 0px auto;
+  outline: none;
+  overflow: hidden;
+  padding: 20px 20px 100px 20px;
+  resize: none;
+  width: 453px;
+}
